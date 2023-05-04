@@ -1,0 +1,13 @@
+{
+    "compilerOption": {
+        "module": "CommonJS",
+        "target": "es5",
+        "baseUrl": ".",
+        "paths": {
+            "@models": ["models"],
+            "@controllers": ["controllers"],
+            "@routes": ["routes"],
+        }
+    },
+    "exclude": ["node_modules"]
+}
