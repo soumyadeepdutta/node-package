@@ -10,6 +10,6 @@ exports.auth = function (req, res, next) {
     req.authUser = decoded;
     next();
   } catch (error) {
-    return res.status(498).send('invalid auth token');
+    return res.status(401).send('invalid auth token');
   }
 };
